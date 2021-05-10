@@ -111,3 +111,11 @@ void Notepad::on_actionRedo_triggered()
 {
     ui->textEdit->redo();
 }
+
+void Notepad::on_actionFont_triggered()
+{
+    bool fontSelected;
+    QFont font = QFontDialog::getFont(&fontSelected, this);
+    if (fontSelected)
+        ui->textEdit->setFont(font);
+}

@@ -34,7 +34,7 @@ outline: none;</string>
      <x>0</x>
      <y>0</y>
      <width>641</width>
-     <height>20</height>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -57,8 +57,15 @@ outline: none;</string>
     <addaction name="actionUndo"/>
     <addaction name="actionRedo"/>
    </widget>
+   <widget class="QMenu" name="menuFormat">
+    <property name="title">
+     <string>Format</string>
+    </property>
+    <addaction name="actionFont"/>
+   </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
+   <addaction name="menuFormat"/>
   </widget>
   <action name="actionNew">
    <property name="text">
@@ -144,6 +151,11 @@ outline: none;</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionFont">
+   <property name="text">
+    <string>Font...</string>
    </property>
   </action>
  </widget>

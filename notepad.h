@@ -7,6 +7,7 @@
 #include <QFileDialog>
 #include <QTextStream>
 #include <QMessageBox>
+#include <QFontDialog>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Notepad; }
@@ -40,6 +41,8 @@ private slots:
     void on_actionUndo_triggered();
 
     void on_actionRedo_triggered();
+
+    void on_actionFont_triggered();
 
 private:
     Ui::Notepad *ui;
