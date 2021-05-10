@@ -16,7 +16,15 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QTextEdit" name="textEdit"/>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="focusPolicy">
+       <enum>Qt::StrongFocus</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: none;
+outline: none;</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -26,7 +34,7 @@
      <x>0</x>
      <y>0</y>
      <width>641</width>
-     <height>23</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
