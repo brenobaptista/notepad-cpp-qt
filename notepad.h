@@ -44,6 +44,12 @@ private slots:
 
     void on_actionFont_triggered();
 
+    void on_actionBold_triggered(bool bold);
+
+    void on_actionUnderline_triggered(bool underline);
+
+    void on_actionItalic_triggered(bool italic);
+
 private:
     Ui::Notepad *ui;
     QString currentFile;

@@ -119,3 +119,19 @@ void Notepad::on_actionFont_triggered()
     if (fontSelected)
         ui->textEdit->setFont(font);
 }
+
+void Notepad::on_actionBold_triggered(bool bold)
+{
+    bold ? ui->textEdit->setFontWeight(QFont::Bold) :
+           ui->textEdit->setFontWeight(QFont::Normal);
+}
+
+void Notepad::on_actionUnderline_triggered(bool underline)
+{
+    ui->textEdit->setFontUnderline(underline);
+}
+
+void Notepad::on_actionItalic_triggered(bool italic)
+{
+    ui->textEdit->setFontItalic(italic);
+}
