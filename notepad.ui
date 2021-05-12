@@ -65,8 +65,17 @@ outline: none;</string>
     <addaction name="separator"/>
     <addaction name="actionFont"/>
    </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_Author"/>
+    <addaction name="actionAbout_License"/>
+    <addaction name="actionAbout_Qt"/>
+   </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
+   <addaction name="menuHelp"/>
   </widget>
   <action name="actionNew">
    <property name="text">
@@ -190,6 +199,24 @@ outline: none;</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+I</string>
+   </property>
+  </action>
+  <action name="actionAbout_Author">
+   <property name="text">
+    <string>About Author</string>
+   </property>
+   <property name="toolTip">
+    <string>About Author</string>
+   </property>
+  </action>
+  <action name="actionAbout_Qt">
+   <property name="text">
+    <string>About Qt</string>
+   </property>
+  </action>
+  <action name="actionAbout_License">
+   <property name="text">
+    <string>About License</string>
    </property>
   </action>
  </widget>

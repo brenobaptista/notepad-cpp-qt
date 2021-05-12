@@ -50,6 +50,12 @@ private slots:
 
     void on_actionItalic_triggered(bool italic);
 
+    void on_actionAbout_Author_triggered();
+
+    void on_actionAbout_License_triggered();
+
+    void on_actionAbout_Qt_triggered();
+
 private:
     Ui::Notepad *ui;
     QString currentFile;
