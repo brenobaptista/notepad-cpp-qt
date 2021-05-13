@@ -64,7 +64,7 @@ void Notepad::on_actionSave_triggered()
     file.close();
 }
 
-void Notepad::on_actionSave_as_triggered()
+void Notepad::on_actionSave_As_triggered()
 {
     QString fileName = QFileDialog::getSaveFileName(this, "Save as");
     QFile file(fileName);
@@ -82,7 +82,7 @@ void Notepad::on_actionSave_as_triggered()
     file.close();
 }
 
-void Notepad::on_actionQuit_triggered()
+void Notepad::on_actionExit_triggered()
 {
     QApplication::quit();
 }
