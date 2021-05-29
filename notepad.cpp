@@ -146,7 +146,7 @@ void Notepad::on_actionAbout_Author_triggered()
             "<br>"
             "I'm a full-stack developer based in Fortaleza, Brazil. "
             "I work remotely at Massive, where we develop alternatives to fight intrusive advertising. "
-            "I'm interested in GNU/Linux, shell scripting, open-source software, privacy and front end web technologies."
+            "I'm interested in GNU/Linux, shell scripting, open-source software, privacy and front-end web technologies."
             "<br><br>"
             "<b>Social</b>"
             "<br>"
